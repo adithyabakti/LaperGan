@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://kit.fontawesome.com/4b08e5e5ad.js" crossorigin="anonymous"></script>
+
+  
+</head>
+<body>
+    <!--  Header -->
+  <div class="header">
+    <div class="nav-container">
+      <div class="nav">
+        <div class="nav-brand">
+          <h1><a href="">Laper<span>Gan</span></a></h1>
+        </div>
+        <div class="nav-menu">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#menu">Menu</a>
+
+        </div>
+        <div class="profile">
+          <a href="" class="btn">Register</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- END HEADER -->
+  
+  <!-- HERO -->
+  <div class="hero" id="home">
+    <div class="container">
+      <div class="row ai-center">
+        <div class="col6">
+          <div class="hero-desc">
+            <h1>JUNKFOOD</h1>
+            <p><span>Delicious food for every mood</span></p>
+            <div class="spacer30">
+            </div>
+            <div class="button-container">
+            <a href="#" onclick="filterProduct('all')" class="btn">Lihat Menu</a>
+          </div>
+        </div>
+        </div>
+        <div class="col6">
+          <img src="Assets/hero.png" alt="" class="img-responsive">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END HERO -->
+  
+  <!--  Filter Food -->
+
+     <div class="wrapper" id="menu">
+
+      <!-- dibawah merupakan search button-->
+
+        <!-- <div id="search-container">
+          <input
+            type="search"
+            id="search-input"
+            placeholder="Search product name here.."
+          />
+          <button id="search">Search</button>
+        </div> -->
+        <div id="buttons">
+          <button class="button-value" onclick="filterProduct('all')">All</button>
+          <button class="button-value" onclick="filterProduct('burger')">
+            Burger
+          </button>
+          <button class="button-value" onclick="filterProduct('pizza')">
+            Pizza
+          </button>
+          <button class="button-value" onclick="filterProduct('drink')">
+            Drink
+          </button>
+          <button class="button-value" onclick="filterProduct('fries')">
+            Fries
+          </button>
+        </div>
+        <div id="products"></div>
+      </div>
+
+  
+  <footer>
+    <div class="footer">
+    <div class="row">
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    <a href="#"><i class="fa fa-instagram"></i></a>
+    <a href="#"><i class="fa fa-youtube"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    </div>
+    
+    <div class="row">
+    <ul>
+    <li><a href="#">Contact us</a></li>
+    <li><a href="#">Our Services</a></li>
+    <li><a href="#">Privacy Policy</a></li>
+    <li><a href="#">Terms & Conditions</a></li>
+    <li><a href="#">Career</a></li>
+    </ul>
+    </div>
+    
+    <div class="row">
+    Copyright © 2024 JUNKFOOD - All rights reserved  
+    </div>
+    </div>
+    </footer>
+      
+
+<!-- script-->
+<script src="js/script.js"></script>
+
+
+
+</body> 
+</html>
